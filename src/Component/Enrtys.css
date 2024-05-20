@@ -1,0 +1,39 @@
+
+  
+  h1 {
+    font-weight:300;
+    font-size: 300%;
+    text-align: center;
+    margin-top: 4rem;
+    color:#fff;
+    line-height: 1.2;
+  }
+  
+  h3{
+    font-weight:200;
+    font-size: 200%;
+    margin-top: rem;
+    color:#fff;
+    margin-left : 15rem;
+
+  }
+  h1 span {
+    padding: 5px 15px;
+    
+  }
+  .enrtyimg{
+    justify-content: center;
+    margin-left: 17rem;
+    display: flex;
+    border-radius: 5%;
+    width: 1200px;
+    height: 500px;
+  }
+
+  .par{
+    margin-left : 15rem;
+    margin-right : 7rem;
+    margin-bottom : 7rem;
+    color : #fff;
+    
+  }
