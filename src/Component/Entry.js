@@ -1,11 +1,9 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 function Entry(props) {
   return (
-    <Link to={`/entry/${props.page.id}`} key={props.page.id} style={{ textDecoration: 'none', color: 'inherit' }}>
-      <div>
-
+  
+      <div className = "term ">
         <dt>
           <img className="round-img" src={props.imgURL} alt="avatar_img" />
           <span className="prps-name">{props.name}</span>
@@ -22,7 +20,6 @@ function Entry(props) {
         </dd>
 
       </div>
-    </Link>
   );
 }
 

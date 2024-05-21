@@ -1,39 +1,57 @@
 
-  
-  h1 {
-    font-weight:300;
-    font-size: 300%;
-    text-align: center;
-    margin-top: 4rem;
-    color:#fff;
-    line-height: 1.2;
-  }
-  
-  h3{
-    font-weight:200;
-    font-size: 200%;
-    margin-top: rem;
-    color:#fff;
-    margin-left : 15rem;
 
-  }
-  h1 span {
-    padding: 5px 15px;
-    
-  }
-  .enrtyimg{
-    justify-content: center;
-    margin-left: 17rem;
-    display: flex;
-    border-radius: 5%;
-    width: 1200px;
-    height: 500px;
+.black-text{
+  font-weight: 300;
+  font-size: 300%;
+  text-align: center;
+  margin-top: 4rem;
+  color: black;
+  line-height: 1.2;
+}
+h3 {
+  font-weight: 200;
+  font-size: 200%;
+  margin-top: 1rem; /* Corrected typo */
+  color: black;
+  margin-left: 17rem;
+}
+
+h1 span {
+  padding: 5px 15px;
+}
+.entryimg-container {
+  text-align: center; /* Center-align its contents */
+}
+
+.entryimg {
+  display: inline-block; /* Ensures the image behaves as an inline-block element */
+  border-radius: 6%;
+  max-width: 100%; /* Adjusted width */
+  height: auto; /* Ensures aspect ratio is maintained */
+}
+
+
+.par {
+  margin-left: 17rem;
+  margin-right: 9rem;
+  margin-bottom: 2rem;
+  color: black;
+}
+
+
+/* Media Queries for Responsive Design */
+@media screen and (max-width: 768px) {
+  h3 {
+    margin-left: 0;
+    text-align: center; /* Center align on smaller screens */
   }
 
-  .par{
-    margin-left : 15rem;
-    margin-right : 7rem;
-    margin-bottom : 7rem;
-    color : #fff;
-    
+  .entryimg {
+    margin-left: 0;
   }
+
+  .par {
+    margin-left: 1rem; /* Adjust margin for smaller screens */
+    margin-right: 1rem; /* Adjust margin for smaller screens */
+  }
+}
