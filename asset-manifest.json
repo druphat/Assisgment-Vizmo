@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Assisgment-Vizmo/static/css/main.45d03dae.css",
+    "main.js": "/Assisgment-Vizmo/static/js/main.f6375ff8.js",
+    "static/js/453.ed3810f9.chunk.js": "/Assisgment-Vizmo/static/js/453.ed3810f9.chunk.js",
+    "index.html": "/Assisgment-Vizmo/index.html",
+    "main.45d03dae.css.map": "/Assisgment-Vizmo/static/css/main.45d03dae.css.map",
+    "main.f6375ff8.js.map": "/Assisgment-Vizmo/static/js/main.f6375ff8.js.map",
+    "453.ed3810f9.chunk.js.map": "/Assisgment-Vizmo/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.45d03dae.css",
+    "static/js/main.f6375ff8.js"
+  ]
+}
